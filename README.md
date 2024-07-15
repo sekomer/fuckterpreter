@@ -1,4 +1,4 @@
-# ⚙ Fucker 🧠
+# ⚙ brainfuck 🧠
 
 ## Basics
 
