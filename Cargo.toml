@@ -1,0 +1,21 @@
+[package]
+name = "brainfuck-compiler"
+version = "0.1.0"
+edition = "2021"
+authors = ["sekomer <a.serkanaksoz@gmail.com>"]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+enum_glob_use = "deny"
+
+[[bin]]
+name = "fucker"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.8", features = ["derive"] }
+colored = "2.1.0"
+nom = "7.1.3"
+
